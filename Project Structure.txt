@@ -1,0 +1,8 @@
+TaskMaster/
+├── main.py
+├── Output                       # Folder For Result Data Save 
+└── Asset/
+    ├── pdf_handler.py           # Combined PDF split, merge, and remove blank functions
+    ├── image_handler.py         # EXIF data extraction and saving
+    ├── excel_tool.py            # Excel processing tools
+    └── utils.py                 # Common utility functions like file selection, logging, etc.
