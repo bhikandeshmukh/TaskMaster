@@ -1,0 +1,38 @@
+TaskMaster/
+├── main.py                     # Main application file
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+├── Output/                     # Folder for result data storage
+└── Asset/
+    ├── pdf_handler.py          # PDF processing functions
+    ├── image_handler.py        # Image processing functions
+    ├── excel_tool.py           # Excel processing functions
+    └── utils.py                # Common utility functions
+
+Features:
+1. PDF Tools:
+   - Split PDF into separate pages
+   - Merge multiple PDFs
+   - Remove blank pages
+   - Compress PDF files
+   - Convert images to PDF
+
+2. Image Tools:
+   - Extract EXIF data
+   - Remove EXIF data
+   - Compress images
+   - Convert image formats
+   - Resize images
+
+3. Excel Tools:
+   - Merge workbooks (separate sheets)
+   - Merge worksheets (single sheet)
+   - Convert Excel to CSV
+   - Convert CSV to Excel
+   - Format Excel files
+
+4. File Management:
+   - List files and directories
+   - Create new directories
+   - Delete files/directories
+   - Rename files/directories

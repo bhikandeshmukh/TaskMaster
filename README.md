@@ -1,80 +1,96 @@
 # TaskMaster
 
-**TaskMaster** is a versatile tool for managing PDF, image, and Excel files. It allows users to split and merge PDFs, extract EXIF data from images, and merge multiple Excel/CSV files into organized workbooks or worksheets. Ideal for data analysts, it streamlines data consolidation and enhances productivity with user-friendly functionality.
+**TaskMaster** is a comprehensive file management tool designed to handle PDF, image, and Excel files efficiently. It provides a user-friendly interface for various file operations and data processing tasks.
 
-## Features
+## Key Features
 
-- **PDF Handling**:
-  - Split a PDF into individual pages.
-  - Merge multiple PDFs into a single document.
-  - Remove blank pages from a PDF.
+### 1. PDF Tools
+- Split PDF into individual pages
+- Merge multiple PDFs
+- Remove blank pages
+- PDF compression
+- Convert images to PDF
 
-- **Image Handling**:
-  - Extract EXIF data from image files.
-  
-- **Excel Processing**:
-  - Merge multiple Excel and CSV files into separate sheets within a single workbook.
-  - Combine multiple Excel and CSV files into a single worksheet.
+### 2. Image Tools
+- Extract EXIF data
+- Remove EXIF data
+- Image compression
+- Image format conversion
+- Image resizing
 
-## Prerequisites
+### 3. Excel Tools
+- Merge workbooks (separate sheets)
+- Merge worksheets (single sheet)
+- Excel to CSV conversion
+- CSV to Excel conversion
+- Excel file formatting
 
-Before using TaskMaster, ensure you have the following installed:
-- Python 3.x
-- Required Python packages:
-  - pandas
-  - xlsxwriter
-  - PyPDF2
-  - Pillow
+### 4. File Management
+- List files and directories
+- Create new directories
+- Delete files/directories
+- Rename files/directories
 
-You can install the required packages using pip:
+## Requirements
+
+Install required packages:
 
 ```bash
-pip install pandas xlsxwriter PyPDF2 Pillow
+pip install -r requirements.txt
 ```
 
-Getting Started
-Step 1: Clone the Repository
-Clone this repository to your local machine using:
-
+Or install individually:
 ```bash
-git clone https://github.com/yourusername/TaskMaster.git
+pip install pikepdf img2pdf Pillow pandas openpyxl xlsxwriter tqdm
+```
+
+## Installation & Usage
+
+1. Clone the repository:
+```bash
+git clone https://github.com/bhikandeshmukh/TaskMaster.git
 cd TaskMaster
 ```
-Step 2: Navigate to the Project Directory
-Make sure you are in the TaskMaster directory where the main.py file is located.
 
-Step 3: Prepare Your Data
-Organize your PDF, image, and Excel/CSV files in appropriate folders. For Excel processing, ensure your files are located in a single folder.
-
-Step 4: Run the Application
-Run the application by executing the following command in your terminal:
-
+2. Run the program:
 ```bash
-python3 main.py
+python main.py
 ```
-Step 5: Use the Tool
-Upon running the application, you will see a menu with several options. Follow the prompts for each task:
 
-1 PDF Split: Select a PDF file to split it into individual pages.
-2 PDF Merge: Choose a folder containing PDF files to merge them into one document.
-3 PDF Blank Page Remove: Select a PDF file to remove any blank pages.
-4 Image Data Extract: Select an image file to extract its EXIF data.
-5 Excel Tool: Choose a folder containing Excel or CSV files to:
-  Merge them into a single workbook with separate sheets for each file.
-  Combine them into a single worksheet.
-6 Exit: Choose this option to exit the application.
+3. Select options from the menu and follow the prompts.
 
-Step 6: Check the Output
-After performing Excel operations, check the Output folder in your project directory for the results. You will find:
+## Output
+All processed files will be saved in the `Output` folder.
 
-merged_workbook.xlsx: Contains each file in a separate sheet.
-merged_worksheet.xlsx: Contains all data combined into a single worksheet.
-Contribution
-If you'd like to contribute to TaskMaster, feel free to open an issue or submit a pull request.
+## File Structure
+```
+TaskMaster/
+├── main.py                     # Main application file
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+├── Output/                     # Result storage
+└── Asset/
+    ├── pdf_handler.py         # PDF processing
+    ├── image_handler.py       # Image processing
+    ├── excel_tool.py          # Excel processing
+    └── utils.py               # Utility functions
+```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Error Handling
+- The application includes comprehensive error handling
+- All operations are logged in `Output/log.log`
+- User-friendly error messages are displayed
 
-Acknowledgments
-Thanks to the open-source community for their valuable libraries and tools.
+## Contributing
+Bug reports and feature requests are welcome. Please feel free to submit issues and pull requests.
+
+## License
+MIT License
+
+## Author
+- Created by: Bhikan Deshmukh
+- Instagram: @bhikan_deshmukh
+
+## Version
+Current Version: 0.2
 

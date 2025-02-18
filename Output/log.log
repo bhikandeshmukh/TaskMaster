@@ -1,0 +1,70 @@
+2024-12-23 19:13:05,151 - INFO - Merged ahm_khe_wh_nl_01nl_FBF.csv into single worksheet
+2024-12-23 19:13:05,163 - INFO - Merged bhi_vas_wh_nl_01nl_FBF.csv into single worksheet
+2024-12-23 19:13:05,178 - INFO - Merged gur_san_wh_nl_01nl_FBF.csv into single worksheet
+2024-12-23 19:13:05,188 - INFO - Merged malur_bts_FBF.csv into single worksheet
+2024-12-23 19:13:05,202 - INFO - Merged ulub_bts_FBF.csv into single worksheet
+2024-12-23 19:13:05,947 - INFO - All files merged into single worksheet successfully.
+2024-12-31 17:35:44,507 - INFO - Merged ahm_khe_wh_nl_01nl_FBF.csv into single worksheet
+2024-12-31 17:35:44,511 - INFO - Merged bhi_vas_wh_nl_01nl_FBF.csv into single worksheet
+2024-12-31 17:35:44,515 - INFO - Merged gur_san_wh_nl_01nl_FBF.csv into single worksheet
+2024-12-31 17:35:44,520 - INFO - Merged malur_bts_FBF.csv into single worksheet
+2024-12-31 17:35:44,524 - INFO - Merged ulub_bts_FBF.csv into single worksheet
+2024-12-31 17:35:45,124 - INFO - All files merged into single worksheet successfully.
+2025-01-02 12:37:42,392 - ERROR - Error in merging worksheet: Error tokenizing data. C error: Expected 2 fields in line 11, saw 10
+2025-01-02 12:40:48,873 - INFO - Merged ahm_khe_wh_nl_01nl_PICK_UP_2025-01-06_2025-01-11_629.csv into single worksheet
+2025-01-02 12:40:48,876 - INFO - Merged bhi_vas_wh_nl_01nl_PICK_UP_2025-01-06_2025-01-10_447.csv into single worksheet
+2025-01-02 12:40:48,880 - INFO - Merged gur_san_wh_nl_01nl_PICK_UP_2025-01-07_2025-01-14_447.csv into single worksheet
+2025-01-02 12:40:48,882 - INFO - Merged malur_bts_PICK_UP_2025-01-06_2025-01-13_447.csv into single worksheet
+2025-01-02 12:40:48,885 - INFO - Merged ulub_bts_PICK_UP_2025-01-06_2025-01-13_447.csv into single worksheet
+2025-01-02 12:40:49,040 - INFO - All files merged into single worksheet successfully.
+2025-01-04 18:23:53,833 - INFO - PDFs merged successfully. Output saved to Output/merged.pdf
+2025-01-04 18:26:16,517 - INFO - Exiting the program.
+2025-01-04 18:26:31,152 - INFO - PDFs merged successfully. Output saved to Output/merged.pdf
+2025-01-11 12:11:31,621 - INFO - Exiting the program.
+2025-01-13 18:37:25,261 - INFO - Merged Consignment_Details_3641878_13-01-2025.csv into single worksheet
+2025-01-13 18:37:25,266 - INFO - Merged Consignment_Details_3641895_13-01-2025.csv into single worksheet
+2025-01-13 18:37:25,269 - INFO - Merged Consignment_Details_3641928_13-01-2025.csv into single worksheet
+2025-01-13 18:37:25,272 - INFO - Merged Consignment_Details_3641958_13-01-2025.csv into single worksheet
+2025-01-13 18:37:25,449 - INFO - All files merged into single worksheet successfully.
+2025-01-13 19:08:59,842 - INFO - Merged BHIWANDI.csv into single worksheet
+2025-01-13 19:08:59,852 - INFO - Merged MALUR.csv into single worksheet
+2025-01-13 19:08:59,856 - INFO - Merged SANPKA.csv into single worksheet
+2025-01-13 19:08:59,860 - INFO - Merged ULUBERIA.csv into single worksheet
+2025-01-13 19:08:59,966 - INFO - All files merged into single worksheet successfully.
+2025-01-16 12:29:37,084 - INFO - Merged Bhiwandi BTS_3653792.csv into single worksheet
+2025-01-16 12:29:37,088 - INFO - Merged kolkata uluberia bts_3653793.csv into single worksheet
+2025-01-16 12:29:37,091 - INFO - Merged Malur BTS_3653791.csv into single worksheet
+2025-01-16 12:29:37,094 - INFO - Merged Sanpka_3653790.csv into single worksheet
+2025-01-16 12:29:37,221 - INFO - All files merged into single worksheet successfully.
+2025-01-31 13:15:38,992 - INFO - Merged ahm_khe_wh_nl_01nl_FBF.csv into single worksheet
+2025-01-31 13:15:39,023 - INFO - Merged bhi_vas_wh_nl_01nl_FBF.csv into single worksheet
+2025-01-31 13:15:39,027 - INFO - Merged gur_san_wh_nl_01nl_FBF.csv into single worksheet
+2025-01-31 13:15:39,031 - INFO - Merged malur_bts_FBF.csv into single worksheet
+2025-01-31 13:15:39,036 - INFO - Merged ulub_bts_FBF.csv into single worksheet
+2025-01-31 13:15:39,370 - INFO - All files merged into single worksheet successfully.
+2025-02-11 16:23:02,066 - INFO - Merged 3759092_15-02-2025.csv into single worksheet
+2025-02-11 16:23:02,070 - INFO - Merged 3759108_14-02-2025.csv into single worksheet
+2025-02-11 16:23:02,093 - INFO - Merged 3759147_18-02-2025.csv into single worksheet
+2025-02-11 16:23:02,097 - INFO - Merged 3778539_15-02-2025.csv into single worksheet
+2025-02-11 16:23:02,247 - INFO - All files merged into single worksheet successfully.
+2025-02-11 18:11:22,051 - INFO - PDFs merged successfully. Output saved to Output\merged.pdf
+2025-02-17 18:47:29,738 - INFO - PDFs merged successfully. Output saved to Output\merged.pdf
+2025-02-18 12:35:01,119 - ERROR - Error merging PDFs: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 12:35:03,510 - INFO - Exiting the program.
+2025-02-18 12:35:28,579 - ERROR - Error merging PDFs: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 12:45:48,562 - ERROR - Error merging PDFs: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 12:45:48,580 - ERROR - Error in PDF menu: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 12:46:16,539 - INFO - Program terminated by user
+2025-02-18 12:46:48,944 - INFO - Program terminated by user
+2025-02-18 13:40:29,010 - ERROR - Error merging PDFs: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:40:29,010 - ERROR - Error in PDF menu: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:41:33,081 - INFO - Program terminated by user
+2025-02-18 13:41:54,434 - ERROR - Error merging PDFs: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:41:54,434 - ERROR - Error in PDF menu: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:42:38,792 - ERROR - Error merging PDFs: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:42:38,792 - ERROR - Error in PDF menu: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:43:23,025 - ERROR - Error merging PDFs: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:43:23,025 - ERROR - Error in PDF menu: 'DictionaryObject' object has no attribute '_data'
+2025-02-18 13:44:12,955 - INFO - Program terminated by user
+2025-02-18 13:44:35,739 - INFO - PDFs merged successfully. Output saved to Output\merged.pdf
+2025-02-18 13:45:40,934 - INFO - Program terminated by user
