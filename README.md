@@ -1,29 +1,31 @@
 # TaskMaster
 
-**TaskMaster** is a comprehensive file management tool designed to handle PDF, image, and Excel files efficiently. It provides a user-friendly interface for various file operations and data processing tasks.
+A versatile file management and processing tool that helps you handle PDFs, images, and Excel files efficiently.
 
-## Key Features
+## Features
 
 ### 1. PDF Tools
-- Split PDF into individual pages
+- Split PDF into separate pages
 - Merge multiple PDFs
 - Remove blank pages
-- PDF compression
+- Compress PDF files
 - Convert images to PDF
 
 ### 2. Image Tools
 - Extract EXIF data
 - Remove EXIF data
-- Image compression
-- Image format conversion
-- Image resizing
+- Compress images
+- Convert image formats
+- Resize images
+- Batch image conversion
+- Images to PDF with filenames
 
 ### 3. Excel Tools
 - Merge workbooks (separate sheets)
 - Merge worksheets (single sheet)
-- Excel to CSV conversion
-- CSV to Excel conversion
-- Excel file formatting
+- Convert Excel to CSV
+- Convert CSV to Excel
+- Format Excel files
 
 ### 4. File Management
 - List files and directories
@@ -31,66 +33,98 @@
 - Delete files/directories
 - Rename files/directories
 
-## Requirements
+## Technical Specifications
 
-Install required packages:
+### File Support
+- **PDF**: .pdf files
+- **Images**: .jpg, .jpeg, .png, .bmp, .tiff
+- **Excel**: .xlsx, .csv
 
-```bash
-pip install -r requirements.txt
-```
+### UI Features
+- Color-coded menu interface
+- Progress bar for operations
+- Clear screen functionality
+- Interactive file selection
 
-Or install individually:
-```bash
-pip install pikepdf img2pdf Pillow pandas openpyxl xlsxwriter tqdm
-```
+### Error Handling
+- Comprehensive exception handling
+- User-friendly error messages
+- Logging of all errors
+- Graceful exit handling
 
-## Installation & Usage
-
-1. Clone the repository:
-```bash
-git clone https://github.com/bhikandeshmukh/TaskMaster.git
-cd TaskMaster
-```
-
-2. Run the program:
-```bash
-python main.py
-```
-
-3. Select options from the menu and follow the prompts.
-
-## Output
-All processed files will be saved in the `Output` folder.
-
-## File Structure
+## Project Structure
 ```
 TaskMaster/
 ├── main.py                     # Main application file
 ├── requirements.txt            # Project dependencies
 ├── README.md                   # Project documentation
-├── Output/                     # Result storage
+├── Output/                     # Folder for result data storage
 └── Asset/
-    ├── pdf_handler.py         # PDF processing
-    ├── image_handler.py       # Image processing
-    ├── excel_tool.py          # Excel processing
-    └── utils.py               # Utility functions
+    ├── pdf_handler.py          # PDF processing functions
+    ├── image_handler.py        # Image processing functions
+    ├── excel_tool.py          # Excel processing functions
+    └── utils.py               # Common utility functions
 ```
 
-## Error Handling
-- The application includes comprehensive error handling
-- All operations are logged in `Output/log.log`
-- User-friendly error messages are displayed
+## Dependencies
+- pikepdf: PDF manipulation
+- PIL (Pillow): Image processing
+- pandas: Excel/CSV handling
+- openpyxl: Excel formatting
+- img2pdf: Image to PDF conversion
+- tqdm: Progress bar functionality
 
-## Contributing
-Bug reports and feature requests are welcome. Please feel free to submit issues and pull requests.
+## System Requirements
+- Python 3.x
+- Windows/Linux/MacOS compatible
+- Minimum 512MB RAM
+- Storage space as per usage
 
-## License
-MIT License
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/bhikandeshmukh/TaskMaster.git
+cd TaskMaster
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Run the main script:
+```bash
+python main.py
+```
+
+2. Use the interactive menu to:
+   - Select the tool category (PDF, Image, Excel, File Management)
+   - Choose specific operation
+   - Follow on-screen instructions
+
+## Output and Logging
+- All processed files are saved in the `Output` directory
+- Operation logs are stored in `Output/log.log`
+- Log format: timestamp - level - message
+- Log levels: INFO, ERROR, CRITICAL
 
 ## Author
-- Created by: Bhikan Deshmukh
-- Instagram: @bhikan_deshmukh
+- **Name**: Bhikan Deshmukh
+- **Contact**: https://instagram.com/bhikan_deshmukh
+- **Version**: 0.2
 
-## Version
-Current Version: 0.2
+## License
+This project is proprietary software. All rights reserved.
+
+## Contributing
+For major changes, please open an issue first to discuss what you would like to change.
+
+## Support
+If you encounter any issues or need assistance:
+1. Check the log file at `Output/log.log`
+2. Contact the author through Instagram
+3. Open an issue in the repository
 

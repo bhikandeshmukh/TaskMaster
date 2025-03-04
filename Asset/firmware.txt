@@ -1,0 +1,98 @@
+TaskMaster Firmware Information
+============================
+
+Version: 0.2
+Author: Bhikan Deshmukh
+Contact: https://instagram.com/bhikan_deshmukh
+
+Project Structure:
+----------------
+TaskMaster/
+├── main.py                     # Main application file
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+├── Output/                     # Folder for result data storage
+└── Asset/
+    ├── pdf_handler.py          # PDF processing functions
+    ├── image_handler.py        # Image processing functions
+    ├── excel_tool.py          # Excel processing functions
+    └── utils.py               # Common utility functions
+
+Core Features:
+-------------
+1. PDF Tools:
+   - Split PDF into separate pages
+   - Merge multiple PDFs
+   - Remove blank pages
+   - Compress PDF files
+   - Convert images to PDF
+
+2. Image Tools:
+   - Extract EXIF data
+   - Remove EXIF data
+   - Compress images
+   - Convert image formats
+   - Resize images
+   - Batch image conversion
+   - Images to PDF with filenames
+
+3. Excel Tools:
+   - Merge workbooks (separate sheets)
+   - Merge worksheets (single sheet)
+   - Convert Excel to CSV
+   - Convert CSV to Excel
+   - Format Excel files
+
+4. File Management:
+   - List files and directories
+   - Create new directories
+   - Delete files/directories
+   - Rename files/directories
+
+Technical Specifications:
+-----------------------
+1. Logging System:
+   - Log file location: Output/log.log
+   - Logging format: timestamp - level - message
+   - Log levels: INFO, ERROR, CRITICAL
+
+2. UI Features:
+   - Color-coded menu interface
+   - Progress bar for operations
+   - Clear screen functionality
+   - Interactive file selection
+
+3. Error Handling:
+   - Comprehensive exception handling
+   - User-friendly error messages
+   - Logging of all errors
+   - Graceful exit handling
+
+4. File Support:
+   PDF:
+   - Input formats: .pdf
+   - Output formats: .pdf
+   
+   Images:
+   - Input formats: .jpg, .jpeg, .png, .bmp, .tiff
+   - Output formats: .jpg, .jpeg, .png, .pdf
+   
+   Excel:
+   - Input formats: .xlsx, .csv
+   - Output formats: .xlsx, .csv
+
+Dependencies:
+------------
+- pikepdf: PDF manipulation
+- PIL (Pillow): Image processing
+- pandas: Excel/CSV handling
+- openpyxl: Excel formatting
+- img2pdf: Image to PDF conversion
+- tqdm: Progress bar functionality
+
+System Requirements:
+------------------
+- Python 3.x
+- Windows/Linux/MacOS compatible
+- Minimum 512MB RAM
+- Storage space as per usage 

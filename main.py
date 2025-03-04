@@ -124,9 +124,11 @@ def image_menu():
         print("\033[92m2. Remove EXIF Data\033[0m")
         print("\033[92m3. Image Compression\033[0m")
         print("\033[92m4. Image Format Conversion\033[0m")
+        print("\033[92m5. Batch Image Conversion\033[0m")
+        print("\033[92m6. Images to PDF\033[0m")
         print("\033[92m0. Back to Main Menu\033[0m")
 
-        choice = input("\n\033[93mEnter your choice (0-4): \033[0m")
+        choice = input("\n\033[93mEnter your choice (0-6): \033[0m")
 
         try:
             if choice == '1':
@@ -156,6 +158,32 @@ def image_menu():
                     show_progress(0.3)
                     ImageHandler.convert_format(image_path)
                     print("\n\033[92mImage format conversion completed!\033[0m")
+
+            elif choice == '5':
+                folder_path = list_files_and_select(is_folder=True)
+                if folder_path:
+                    print("\n\033[92mChoose output format:\033[0m")
+                    print("\033[92m1. JPEG\033[0m")
+                    print("\033[92m2. JPG\033[0m")
+                    print("\033[92m3. PNG\033[0m")
+                    format_choice = input("\n\033[93mEnter the number corresponding to the format: \033[0m").strip()
+                    format_map = {"1": "jpeg", "2": "jpg", "3": "png"}
+                    if format_choice in format_map:
+                        show_progress(0.5)
+                        ImageHandler.batch_convert_format(folder_path, format_map[format_choice])
+                        print("\n\033[92mBatch image conversion completed!\033[0m")
+                    else:
+                        print("\n\033[91mInvalid format choice!\033[0m")
+
+            elif choice == '6':
+                folder_path = list_files_and_select(is_folder=True)
+                if folder_path:
+                    output_pdf = input("\n\033[93mEnter the output PDF name (e.g., output.pdf): \033[0m")
+                    if not output_pdf.endswith('.pdf'):
+                        output_pdf += '.pdf'
+                    show_progress(1.0)
+                    ImageHandler.images_to_pdf_with_filenames(folder_path, output_pdf)
+                    print("\n\033[92mImages to PDF conversion completed!\033[0m")
 
             elif choice == '0':
                 break
